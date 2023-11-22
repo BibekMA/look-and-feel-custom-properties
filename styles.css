@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "urw-din-black";
+  src: url(fonts/URWDINSemiCond-Black.ttf);
+}
+
+
+
+/*custom properties op de living styleguide */
+
+:root {
+  --background-button: #46aa64;
+  --main-font:Arial, Helvetica, sans-serif;
+  --main-text-color:#fff;
+  --primary-text-color: #272932;
+}
+
+
+
+
+
+
+/* Custom properties op primary button */
+
+
+.button-primary {
+  list-style: none;
+  font-weight: 600;
+  width: 10.7em;
+  padding: 1em;
+  padding-top: 0.9em;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 2.5em;
+  border-style: none;
+
+  font-family: var(--main-font);
+  color: var(--primary-text-color);
+  background: var(--background-button);
+
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-primary:hover {
+  color: var(--main-text-color);
+}
+
+.button-primary:hover {
+  filter: brightness(105%);
+}
+
+.button-primary:active {
+  filter: brightness(80%);
+}
+
+div {
+  margin: 10em;
+}
+
+/* einde custom properties op primary button */
+
+
