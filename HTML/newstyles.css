@@ -7,21 +7,26 @@
   font-family: "Arvo", serif;
 }
 
+/* 
+Huidige customproperties
+*/ 
+
 :root {
+  --headerbackgroundColor: rgb(29, 29, 29);
   --background-color: #9d9d9b;
+
   --mainColor: #006b38ff;
   --secundaryColor: #101820ff;
-  --headerbackgroundColor: rgb(29, 29, 29);
   --tertaireColor: lime;
 }
+
 
 body {
   background: var(--background-color);
 }
 
-.dark-mode{
-  background-color: yellow;
-}
+
+
 
 header {
   display: flex;
