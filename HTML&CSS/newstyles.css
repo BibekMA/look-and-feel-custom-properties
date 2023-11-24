@@ -9,7 +9,7 @@
 
 /* 
 Huidige customproperties
-*/ 
+*/
 
 :root {
   --headerbackgroundColor: rgb(29, 29, 29);
@@ -20,13 +20,9 @@ Huidige customproperties
   --tertaireColor: lime;
 }
 
-
 body {
   background: var(--background-color);
 }
-
-
-
 
 header {
   display: flex;
